@@ -1,0 +1,10 @@
+2020-09-22T17:35:45+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\wamp64\www\wordpress55pf\wp-content\plugins\WooComercePlugin-1.5.0-alpha\gateway-pagofacil-direct.php:275
+Stack trace:
+#0 C:\wamp64\www\wordpress55pf\wp-content\plugins\woocommerce\templates\checkout\payment-method.php(30): woocommerce_pagofacil_direct->payment_fields()
+#1 C:\wamp64\www\wordpress55pf\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress55pf\wp-content\plugins\woocommerce\templates\checkout\payment.php(30): wc_get_template('checkout/paymen...', Array)
+#3 C:\wamp64\www\wordpress55pf\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress55pf\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2281): wc_get_template('checkout/paymen...', Array)
+#5 C:\wamp64\www\wordpress55pf\wp-includes\class-wp-hook.php(287): woocommerce_checkout_payment('')
+#6 C:\wamp64\www\wordpre en C:\wamp64\www\wordpress55pf\wp-content\plugins\WooComercePlugin-1.5.0-alpha\gateway-pagofacil-direct.php en la línea 275
+
